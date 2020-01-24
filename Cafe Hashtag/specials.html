@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+</head>
+<link rel="stylesheet" type="text/css" href="specials.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<body>
+<header>
+  <div class="top-nav-bar">
+    <div class="search-box">
+      <a href="hashtag.html"><img src="PicsArt_01-13-12.13.40.png" class="logo"></a>
+      <input type="text" class="form-control">
+      <span class="input-group-text"><i class="fa fa-search" aria-hidden="true"></i>
+</span>
+      
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="hashtag.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+        <li><a href="specials.html"><i class="fa fa-cutlery" aria-hidden="true"></i>Menu</a></li>
+        <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Checkout</a></li>
+        <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Account</a></li>
+      </ul>
+    </div>
+  </div>
+  <br/>
+  <br />
+</header>
+
+
+<div class="contact-form" style="font-family: arial" align="center">
+  <font color="white">
+  <h1>Please Submit Feedback </h1>
+
+  <br />
+<br />
+<br />
+<br />
+  <div class="txtb">
+    <label>Your Name :</label>
+    <input type="text" name="" value="" placeholder="Enter Your Name">
+  </div>
+
+
+  <div class="txtb">
+    <label>Address :</label>
+    <input type="text" name="" value="" placeholder="Enter Your Address">
+  </div>
+
+
+
+  <div class="txtb">
+    <label>Contact No :</label>
+    <input type="text" name=" value" placeholder="Enter Your Mobile No">
+  </div>
+
+   <div class="txtb">
+    <label>Comment :</label>
+    <input type="text" name="" value="" placeholder="Enter The Feedback">
+  </div>
+
+  <br />
+
+   <div class="btn">
+  <a href="specials.html"><font color="white">Send</font></a>
+  </div>
+</font>
+</p>
+</div>
+
+<div class="containerc">
+  <table id="cart" class="table table-hover table-condensed">
+            <thead>
+            <tr>
+              <th style="width:50%">Food</th>
+              <th style="width:10%">Price</th>
+              <th style="width:8%">Quantity</th>
+              <th style="width:22%" class="text-center">Subtotal</th>
+              <th style="width:10%"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="pasta.jpg" alt="..." class="img-responsive" height="80px" width="80px" /></div>
+                  <div class="col-sm-10">
+                    <h4>Pasta</h4>
+                    <p>A delicious strong Pasta .</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">Rs. 40.00 </td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="0">
+              </td>
+              <td data-th="Subtotal" class="text-center">Rs. 00.00</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+
+            <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="coldcoffee.jpg" alt="..." class="img-responsive" height="80px" width="80px" /></div>
+                  <div class="col-sm-10">
+                    <h4>Cold Coffee</h4>
+                    <p>A lot can be discussed over <br/> cup of coffee.</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">Rs. 30.00</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="0">
+              </td>
+              <td data-th="Subtotal" class="text-center">Rs. 00.00</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+             <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="coffee.jpg" alt="..." class="img-responsive" height="80px" width="80px" /></div>
+                  <div class="col-sm-10">
+                    <h4>Coffee</h4>
+                    <p>Discuss your Present with a cup of coffee, <br/> bcz pasts are never boring .</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">Rs. 30.00 </td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="0">
+              </td>
+              <td data-th="Subtotal" class="text-center">Rs. 00.00</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+             <tr>
+              <td data-th="Product">
+                <div class="row">
+                  <div class="col-sm-2 hidden-xs"><img src="burger.jpg" alt="..." class="img-responsive" height="80px" width="80px" /></div>
+                  <div class="col-sm-10">
+                    <h4>Burger</h4>
+                    <p>A heavy snacks is always a burger .</p>
+                  </div>
+                </div>
+              </td>
+              <td data-th="Price">Rs. 60.00</td>
+              <td data-th="Quantity">
+                <input type="number" class="form-control text-center" value="0">
+              </td>
+              <td data-th="Subtotal" class="text-center">Rs. 00.00</td>
+              <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>                
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr class="visible-xs">
+              <td class="text-center"><strong>Rs. 00.00</strong></td>
+            </tr>
+            <tr>
+              <td><a href="hashtag.html" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Ordering</a></td>
+              <td colspan="2" class="hidden-xs"></td>
+              <td class="hidden-xs text-center"><strong>Total Rs. 00.00 </strong></td>
+              <td><a href="login.html" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+          </tfoot>
+        </table>
+</div>
+
+
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Cafe Hashtag</h3>
+          <p>Mit Adt University,loni Kalbhor <br/ >Loni gaaon</p>
+        </div>
+        <div class="col1 md-mb-30 sm-mb-30">
+          <h2>Nav</h2>
+          <ul>
+            <li><a href="hashtag.html">Home</a></li>
+            <li><a href="specials.html">Menu</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+        </div>
+        <div class="col2 md-mb-30 sm-mb-30">
+          <h2>Follow Us</h2>
+          <p>Please Follow us on <br/ >Social Media</p>
+          <a href="https://www.facebook.com/vaibhav.prakash.161"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/vaibhav__prakash/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="col4 md-mb-30 sm-mb-30">
+          <h2> Feedback</h2>
+          <p>Help us to Improve.<br /> Thank you for visiting us. </p>
+          <form action="">
+            <input type="email"><br/>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">All Rights Reserved By- &copy;Vaibhav Prakash.2020 @vbhvprksh@gmail.com</p>
+  </div>
+
+</footer>
+
+
+</body>
+</html>
